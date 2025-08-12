@@ -3,6 +3,7 @@ const http= require('http');
 const {Server}=require('socket.io');
 const router = require ('./routes');
 const cors=require("cors");
+const {addUser,removeUser,getUser,getUsersInRoom}=require("./user");
 
 
 
